@@ -105,6 +105,6 @@ function restartQuiz(e) {
 generateQuestions(currentQuestion);
 nextButton.addEventListener('click', loadNextQuestion);
 previousButton.addEventListener('click',loadPreviousQuestion);
-// result.addEventListener('click',restartQuiz);
+result.addEventListener('click',restartQuiz);
 
 
