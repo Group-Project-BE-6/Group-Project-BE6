@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+	--primary: #3155e7;
+	--primary-dark: #2045d6;
+	--black: #010101;
+	--gray-1: #788190;
+	--gray-2: #d3d4db;
+	--white: #ffffff;
+	--body: #fefefe;
+}
+
+body {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	background-color: var(--body);
+}
+
+.navbar-brand {
+	color: var(--primary);
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.btn {
+	border-radius: 8px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+	padding: 12px 20px;
+}
+
+.btn-primary {
+	background-color: var(--primary);
+}
+
+.btn-outline-secondary:hover {
+	background-color: var(--primary);
+	border: 1px solid var(--gray-2);
+}
+
+/* ------------------------------------------------------------ 
+Navbar
+---------------------------------------------------------------*/
+
+.navbar .btn-outline-secondary {
+	border: 1px solid var(--primary-dark);
+	color: var(--black);
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 10px 16px;
+}
+
+.navbar {
+	padding: 15px 0px;
+	margin-bottom: 10px;
+	background-color: skyblue;
+}
+
+.nav-link {
+	margin-left: 41px;
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--black);
+}
+
+.navbar-nav .nav-link:hover {
+	font-weight: bold;
+	color: var(--primary);
+}
+
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+}
